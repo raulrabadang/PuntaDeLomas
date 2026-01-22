@@ -95,7 +95,7 @@ header {
     display: inline-block;
     padding: 15px 35px;
     background-color: var(--azul-mar);
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     border-radius: 50px;
     font-weight: bold;
@@ -104,9 +104,11 @@ header {
 }
 
 .btn:hover {
-    background-color: transparent;
-    border-color: white;
+    background-color: #005a91; /* Un azul más oscuro para que contraste */
+    color: white !important;   /* Forzamos que el texto siga siendo blanco */
+    border-color: #005a91;
     transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 /* --- Secciones Generales --- */
